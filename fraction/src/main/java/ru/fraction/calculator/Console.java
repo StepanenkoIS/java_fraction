@@ -55,7 +55,7 @@ public class Console {
     }
   }
 
-  private static String parseConsole(String line) {
+  public static String parseConsole(String line) {
 
     if (line.contains("sum")) {
       String[] values = line.split("sum");

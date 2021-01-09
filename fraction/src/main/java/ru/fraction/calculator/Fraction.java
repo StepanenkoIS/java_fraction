@@ -119,6 +119,12 @@ class Fraction {
   } //алгоритм Евклида
 
   public String toString() {
+    if (numerator == 1 && denominator == 1) {
+      return "1";
+    }
+    if (numerator == 0 && denominator == 0) {
+      return "0";
+    }
     if (numerator == 0) {
       return intNum * sign + "/" + denominator;
     }
