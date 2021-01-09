@@ -39,4 +39,4 @@ buildNumber.properties
 hs_err_pid*
 
 *.bat
-!Start.bat
+src/main/java/!Start.bat
